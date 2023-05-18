@@ -3,10 +3,10 @@
     "version": "1.0.0",
     "description": "Social Network API",
     "scripts": {
-      "start": "node src/app.js"
+        "start": "node src/app.js"
     },
     "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^6.0.9"
+        "express": "^4.18.2",
+        "mongoose": "^6.11.1"
     }
-  }
+}
