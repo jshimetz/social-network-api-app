@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const userRoutes = require('./routes/userRoutes');
 const thoughtRoutes = require('./routes/thoughtRoutes');
+const dateFormat = require('./utils/dateFormat');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
